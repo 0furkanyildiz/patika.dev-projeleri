@@ -9,3 +9,11 @@ Cevap:
 [22,27,16,2,18,6] -> [2,27,16,22,18,6] (22 ile 2 yer değiştirildi)
 [2,27,16,22,18,6] -> [2,6,16,22,18,27] (27 ile 6 yer değiştirildi)
 [2,6,16,22,18,27] -> [2,6,16,18,22,27] (28 ile 22 yer değiştirildi)
+
+2.Big-O gösterimini yazınız.
+
+Cevap:
+
+O(n^2)
+
+3. 
