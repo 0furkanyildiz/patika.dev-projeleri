@@ -26,7 +26,7 @@ Proje 3
        1
      
      
-4. Adım: 8, 7'den büyüktür bu yüzden 7'nin sağında yer alır. 
+4. Adım: 8, 7'den büyüktür, bu yüzden 7'nin sağında yer alır. 
 
            7
          /   \      
@@ -34,7 +34,7 @@ Proje 3
        /    
       1  
 
-5. Adım: 3, 1'den büyük ve 5'ten küçüktür. Bu yüzden 1'ün sağında yer alır.
+5. Adım: 3, 1'den büyük ve 5'ten küçüktür, bu yüzden 1'ün sağında yer alır.
 
 
            7
@@ -46,7 +46,7 @@ Proje 3
         3
      
      
-6. Adım: 6, 5'ten büyük ve 7'den küçüktür bu yüzden 5'in sağında yer alır.
+6. Adım: 6, 5'ten büyük ve 7'den küçüktür, bu yüzden 5'in sağında yer alır.
 
            7
          /   \      
@@ -57,7 +57,7 @@ Proje 3
         3
      
      
-7. Adım: 0, 1'den küçüktür bu yüzden 1'in solunda yer alır.
+7. Adım: 0, 1'den küçüktür, bu yüzden 1'in solunda yer alır.
 
            7
          /   \      
@@ -67,8 +67,30 @@ Proje 3
      / \
     0   3
       
-8.Adım: 9, 8'den büyüktür bu yüzden 8'in sağında yer alır.
-4. Adım: Bundan sonraki adımlarda 3. adımdaki gibi devam edilir. Son olarak binary search tree şekildeki gibi ortaya çıkar:
+8.Adım: 9, 8'den büyüktür, bu yüzden 8'in sağında yer alır.
+
+           7
+         /   \      
+        5     8
+       / \     \
+      1   6     9
+     / \
+    0   3
+   
+   
+9. Adım: 4, 3'ten büyük ve 5'ten küçüktür, bu yüzden 3'ün sağında yer alır.
+
+           7
+         /   \      
+        5     8
+       / \     \
+      1   6     9
+     / \
+    0   3
+         \
+          4
+          
+4. Adım: 2, 3'ten küçüktür ve 1'den büyüktür, bu yüzden 3'ün solunda yer almalıdır. Son olarak binary search tree şekildeki gibi ortaya çıkar:
 
            7
          /   \      
