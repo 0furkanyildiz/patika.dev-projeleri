@@ -58,6 +58,16 @@ Proje 3
      
      
 7. Adım: 0, 1'den küçüktür bu yüzden 1'in solunda yer alır.
+
+           7
+         /   \      
+        5     8
+       / \     
+      1   6     
+     / \
+    0   3
+      
+8.Adım: 9, 8'den büyüktür bu yüzden 8'in sağında yer alır.
 4. Adım: Bundan sonraki adımlarda 3. adımdaki gibi devam edilir. Son olarak binary search tree şekildeki gibi ortaya çıkar:
 
            7
