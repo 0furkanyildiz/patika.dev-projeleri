@@ -5,24 +5,34 @@ Proje 3
 
 Çözüm:
 
-1. Adım: İlk olarak bize verilen diziyi sıralayalım.
-[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] -> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+1. Adım: Verilen dizinin ilk elemanı root olarak seçilir:7
 
-2. Adım: Root olarak herhangi bir sayıyı alabiliriz fakat sistem daha işlevsel olsun diye ortalardan bir sayı alalım: 4
-
-3. Adım: Root olarak seçilen 4, binary search tree'nin en üstünde yer alacak. Dizimizin kalan elemanlarından 4'ten küçük olanlar solda, büyük olanlar sağda yer alacak şekilde konumlandırılacak.
-4 ten küçük olan sayılar -> [0,1,2,3].
-4 ten büyük olan sayılar -> [5,6,7,8,9].
-
-4. Adım: Bu adımdan sonra kalan elemanlar şemada 4'ün iki yanına yerleştirilecek. Her bir adımda sistemin işlevsel olması adına her bir parent elemanların ortasından seçilecek.
-
-5. Adım: Verilen adımlar sonucunda ortaya çıkan binary search tree aşağıdaki şekildeki gibidir.
+2. Adım: Sıradaki eleman 7'den küçük ise 7'nin soluna, 7'nin sağına yerleştirilerek devam edilir.
+5<7 bu yüzden 5, 7'nin solunda yer alacak.
 
 
-                    4
-                 /     \
-               1         7
-             /   \     /   \
-            0     2    5     8
-                   \    \     \
-                   3     6      9
+           7
+          /
+         5
+        
+3. Adım: Sıradaki eleman 5'ten küçükse 5'in soluna, 5 ile 7'nin arasında ise 5'in sağına, 7'den büyükse 7'nin sağına yerleştirilerek devam edilir.
+1<5 bu yüzden 1, 5'in solunda yer alacak.
+
+
+           7
+          /
+         5
+        /
+       1
+      
+4. Adım: Bundan sonraki adımlarda 3. adımdaki gibi devam edilir. Son olarak binary search tree şekildeki gibi ortaya çıkar:
+
+           7
+         /   \      
+        5     8
+       / \     \
+      1   6     9
+     / \
+    0   3
+       / \
+      2   4
